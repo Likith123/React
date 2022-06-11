@@ -12,12 +12,17 @@
     z-index: 1;
 }
 
+.product-rating{
+    padding-top: none;
+    display: flex;
+    padding-bottom: 10px;
+}
 .product > img{
     max-height: 200px;
     width:100%;
     object-fit: contain;
     margin-bottom: 15px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .product-price{

@@ -1,19 +1,19 @@
 import React from 'react'
 import './Product.css'
-function Product(props) {
+function Product({title,image,price,rating}) {
   return (
     <div className = "product">
       <div className = "product-info">
-      <p>{props.text}</p>
+      <p>{title}</p>
         <p className='product-price'>
           <small>$</small>
-          <strong>19.99</strong>
+          <strong>{price}</strong>
         </p>
         <div className='product-rating'>
-          <p>⭐⭐⭐⭐</p>
+          {Array(rating).fill().map((k,i)=>(<p>⭐</p>))}
         </div>
       </div>
-      <img src="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg" alt =""/>
+      <img src={image} alt =""/>
       <button>Add to cart</button>
     </div>
   );
