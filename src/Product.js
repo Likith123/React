@@ -1,18 +1,22 @@
 import React from 'react'
-
-function Product() {
+import './Product.css'
+function Product(props) {
   return (
     <div className = "product">
-        <div className = "product-info">
-            <p>The lean startup</p>
-            <div>
-                <small>$</small>
-                <strong>1.99</strong>
-            </div>
+      <div className = "product-info">
+      <p>{props.text}</p>
+        <p className='product-price'>
+          <small>$</small>
+          <strong>19.99</strong>
+        </p>
+        <div className='product-rating'>
+          <p>⭐⭐⭐⭐</p>
         </div>
-
+      </div>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg" alt =""/>
+      <button>Add to cart</button>
     </div>
-  )
+  );
 }
 
 export default Product
