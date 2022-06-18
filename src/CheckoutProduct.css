@@ -10,9 +10,6 @@
 }
 
 .checkoutproduct-image{
-    /* justify-content: center;
-    width: 300px;
-    height: 450px; */
     object-fit: contain;
     width :180px;
     height: 220px;
