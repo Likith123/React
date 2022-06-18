@@ -5,14 +5,31 @@
     background-color: white;
 }
 
-.checkoutAd{
-    width: 100%;
-    margin-bottom: 10px;
-}
-
 .checkout-title{
     margin-right: 10px;
     padding: 10px;
     border-bottom: 2px solid lightgray;
 }
+
+
+.checkoutAd{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+/* .checkout-title {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  
+}
+.checkout-title:hover {
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  box-shadow: inset 255px 0 0 0#54b3d6;
+  color: white;
+}
+ */
 
