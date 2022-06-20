@@ -23,7 +23,7 @@ function CheckoutProduct({id, image, title, price, rating}) {
                 <div className='checkoutproduct-rating'>
                     {Array(rating).fill().map(() => (<p>⭐</p>))}
                 </div>
-                <button onClick={removeFromBasket}>Remove from bucket</button>
+                <button onClick={removeFromBasket}>Remove from basket</button>
             </div>
         </div>
   )

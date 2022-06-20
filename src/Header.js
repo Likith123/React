@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 import { useStateValue } from './StateProvider';
 
 function Header() {
-    const [{basket}] = useStateValue();
+    const [{basket},dispatch] = useStateValue();
   return (
     <div className = "header">
         <Link to='/'><img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Amazon-logo" className="header-logo"/> </Link>
